@@ -1,0 +1,51 @@
+<html>
+<style>
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.barra_lateral {
+    float: left;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    left: 0; top: 0; 
+    background-color: #154ec7; /* Cor de fundo diferente */
+    color:white;
+
+}
+
+.item_barra{
+    padding-left: 10px;
+}
+
+.main {
+    float: right;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    right: 0; bottom: 0;
+    background-color: #a7a7a7; /* Cor de fundo diferente */
+    text-align: center; /* Alinhar conteúdo no centro */
+    display: flex;
+    justify-content: center; /* Alinhar verticalmente */
+    align-items: center; /* Alinhar horizontalmente */
+}
+</style>
+<head>
+    <title>Layout Responsivo</title>
+</head>
+<body>
+    <div class="barra_lateral">
+        <p class="item_barra">Pagina Inicial</p>
+        <p class="item_barra">Sobre</p>
+        <p class="item_barra">Contato</p>
+    </div>
+    <div class="main">
+        <h1>Seja Bem-vindo ao nosso site </h1>
+    </div>
+</body>
+</html>

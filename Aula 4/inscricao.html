@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+    <form id="formulario" action="https://660f8593356b87a55c518bc3.mockapi.io/Inscricao" method="post">
+        <h2>Dados do Aluno</h2>
+        <label for="nome_aluno">Nome*</label>
+        <input type="text" id="nome_aluno" name="nome_aluno" required><br>
+        <label for="endereco">Endereço </label>
+        <input type="text" id="endereco" name="endereco"><br>
+        <label for="bairro">Bairro </label>
+        <input type="text" id="bairro" name="bairro"><br>
+        <label for="cidade">Cidade </label>
+        <input type="text" id="cidade" name="cidade"><br>
+        <label for="numero">Número </label>
+        <input type="text" id="numero" name="numero"><br>
+        <label for="cep">CEP </label>
+        <input type="text" id="cep" name="cep"><br>
+        <label for="complemento">Complemento</label>
+        <input type="text" id="complemento" name="complemento"><br>
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" name="estado"><br>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone"><br>
+        <label for="celular_aluno">Celular* </label>
+        <input type="text" id="celular_aluno" name="celular_aluno" required><br>
+        <label for="email_aluno">E-mail* </label>
+        <input type="email" id="email_aluno" name="email_aluno" required><br>
+        <label for="cor">Cor* </label>
+        <select id="cor" name="cor" required>
+            <option value="Branca">Branca</option>
+            <option value="Preta">Preta</option>
+            <option value="Parda">Parda</option>
+            <option value="Amarela">Amarela</option>
+            <option value="Indígena">Indígena</option>
+        </select>
+
+        <h2>Dados do Pai</h2>
+        <label for="nome_pai">Nome* </label>
+        <input type="text" id="nome_pai" name="nome_pai" required><br>
+        <label for="data_ingresso">Data de Nascimento </label>
+        <input type="date" id="data_nascimento_pai" name="data_nascimento_pai"><br>
+        <label for="naturalidade_pai">Naturalidade </label>
+        <input type="text" id="naturalidade_pai" name="naturalidade_pai"><br>
+        <label for="instrucao_pai">Instrução </label>
+        <input type="text" id="instrucao_pai" name="instrucao_pai"><br>
+        <label for="profissao_pai">Profissão </label>
+        <input type="text" id="profissao_pai" name="profissao_pai"><br>
+        <label for="celular_pai">Celular* </label>
+        <input type="text" id="celular_pai" name="celular_pai" required><br>
+        <label for="email_pai">E-mail* </label>
+        <input type="email" id="email_pai" name="email_pai" required><br>
+        <label for="cpf_pai">CPF* </label>
+        <input type="text" id="cpf_pai" name="cpf_pai" required><br>
+        <label for="resp_finan_pai">Responsável Financeiro</label>
+        <input type="checkbox" id="resp_finan_pai" name="resp_finan_pai"><br>
+
+
+        <h2>Dados da Mãe</h2>
+        <label for="nome_mae">Nome* </label>
+        <input type="text" id="nome_mae" name="nome_mae" required><br>
+        <label for="data_ingresso">Data de Nascimento </label>
+        <input type="date" id="data_nascimento_mae" name="data_nascimento_mae"><br>
+        <label for="naturalidade_mae">Naturalidade </label>
+        <input type="text" id="naturalidade_mae" name="naturalidade_mae"><br>
+        <label for="instrucao_mae">Instrução </label>
+        <input type="text" id="instrucao_mae" name="instrucao_mae"><br>
+        <label for="profissao_mae">Profissão </label>
+        <input type="text" id="profissao_mae" name="profissao_mae"><br>
+        <label for="celular_mae">Celular* </label>
+        <input type="text" id="celular_mae" name="celular_mae" required><br>
+        <label for="email_mae">E-mail* </label>
+        <input type="email" id="email_mae" name="email_mae" required><br>
+        <label for="cpf_mae">CPF* </label>
+        <input type="text" id="cpf_mae" name="cpf_mae" required><br>
+        <label for="resp_finan_mae">Responsável Financeiro</label>
+        <input type="checkbox" id="resp_finan_mae" name="resp_finan_mae"><br>
+        
+
+        <h2>Dados do Curso</h2>
+        <label for="nome_curso">Nome do Curso Escolhido* </label>
+        <input type="text" id="nome_curso" name="nome_curso" required><br>
+        <label for="data_ingresso">Data de Ingresso* </label>
+        <input type="date" id="data_ingresso" name="data_ingresso" required><br>
+        <label for="valor_curso">Valor* </label>
+        <input type="text" id="valor_curso" name="valor_curso" required><br>
+        <label for="forma_pagamento">Forma de Pagamento (qtde de parcelas)* </label>
+        <input type="text" id="forma_pagamento" name="forma_pagamento" required><br>
+        <br>
+        <button type="submit">Enviar Inscrição</button><br>
+
+        <p>Os campos em * são obrigatórios e não pode deixar salvar se não estiver sido preenchido</p>
+    </form>
+</body>
+</html>
